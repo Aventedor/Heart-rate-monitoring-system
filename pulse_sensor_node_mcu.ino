@@ -2,9 +2,9 @@
 //  Variables
 #define PSPin D4    // Pulse Sensor ORANGE WIRE connected to ANALOG PIN 0
 WiFiClient client;
-String apiKey = "DAQJ1KPH7V0LJ0DQ";     //add thinkspeak api key
-const char *ssid =  "Alcatel LinkZone_671B";           //wifi ssid
-const char *pass =  "70907854";        //wifi password
+String apiKey = "";     //add thinkspeak api key
+const char *ssid =  "";           //wifi ssid
+const char *pass =  "";        //wifi password
 const char* server = "api.thingspeak.com";    
 
 int c=0,r=0;          //counter and rate variable
